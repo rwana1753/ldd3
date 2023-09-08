@@ -18,7 +18,7 @@ The example drivers should compile against latest Linus Torvalds kernel tree:
 
 To compile the drivers against a specific tree (for example Linus tree):
 ```
-$ git clone git://github.com/rwana1753/ldd3.git
+$ git clone git://github.com/rwana1753/linux-device-drivers)
 $ export KERNELDIR=/lib/modules/$(shell uname -r)/build
 $ cd ldd3
 $ make
