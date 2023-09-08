@@ -18,9 +18,8 @@ The example drivers should compile against latest Linus Torvalds kernel tree:
 
 To compile the drivers against a specific tree (for example Linus tree):
 ```
-$ git clone git://github.com/martinezjavier/ldd3.git
-$ git clone git://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git
-$ export KERNELDIR=/path/to/linux
+$ git clone git://github.com/rwana1753/ldd3.git
+$ export KERNELDIR=/lib/modules/$(shell uname -r)/build
 $ cd ldd3
 $ make
 ```
@@ -38,6 +37,8 @@ The kernel builds below are the versions most recently tested/supported
 * Buildroot 2019.05 kernel for qemu builds: 4.9.16
 * Buildroot 2021.02 kernel for qemu builds: 5.10
 * Alpine 3.13 kernel as of May 2021: 5.10.29-lts, see [here](https://github.com/ericwq/gccIDE/wiki/ldd3-project) for detail.
+
+* Ubuntu 18.04 kernel as of Sep 2023: 5.4.0-132-generic
 
 
 # Eclipse Integration
